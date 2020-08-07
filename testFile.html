@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 70%;
+      }
+
+      td,th {
+        border: 3px solid #0f0f0f;
+        text-align: left;
+        padding-left:5px
+      }
+
+      ul{
+        padding-left: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+        <p>Hi Team,</p>
+        <p>Please find <SHIFT> Shift Details below:</p><br/>
+    </div>
+    <table>
+      <tr>
+        <th colspan="2">Handover Details</th>
+      </tr>
+      <tr>
+        <td>Date</td>
+        <td><DATE></td>
+      </tr>
+      <tr>
+        <td>Handover To</td>
+        <td><HANDOVER_TO></td>
+      </tr>
+      <tr>
+        <td>Working On/Worked On</td>
+        <td>
+          <ul>
+            <WORKED_DETAILS>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Things to Take Care of</td>
+        <td>
+          <ul>
+            <TAKE_CARE>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <br/>
+    <div>
+        <p>Regards,<br/>Saswati</p><br/>
+    </div>
+  </body>
+</html>

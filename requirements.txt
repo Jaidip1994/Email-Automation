@@ -1,0 +1,6 @@
+secure-smtplib
+ssl
+email-to
+datetime
+texttable
+tqdm
